@@ -1,0 +1,7 @@
+#prevent directory listing
+
+Options -Indexes
+
+#Echo Error Message
+
+ErrorDocument 403 "Sorry, You don't have permission to access here"
