@@ -74,7 +74,7 @@ if (!isset($_SESSION['id'])) {
             <tr>
               <th scope="col">رقم المقال</th>
               <th scope="col">عنوان المقال</th>
-              <th scope="col">كاتب المقال</th>
+              <th scope="col">فئة المقال</th>
               <th scope="col">صورة المقال</th>
               <th scope="col">تاريخ المقال</th>
               <th scope="col">حذف المقال</th>
@@ -90,7 +90,7 @@ if (!isset($_SESSION['id'])) {
               <tr>
                 <td><?php echo $no; ?></td>
                 <td><?php echo $row['post_title']; ?></td>
-                <td><?php echo $row['post_auther']; ?></td>
+                <td><?php echo $row['post_category']; ?></td>
                 <td><img src="uploads/<?php echo $row['post_image']; ?>" alt="" width="70px" height="50px"></td>
                 <td><?php echo $row['post_date']; ?></td>
                 <td>

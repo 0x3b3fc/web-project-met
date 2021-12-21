@@ -1,3 +1,6 @@
+<?php
+error_reporting(0);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,16 +31,13 @@
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link">عن المدونة</a>
+            <a href="about.php" class="nav-link">عن المدونة</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">شروحات</a>
+            <a href="privacy.php" class="nav-link">حقوق النشر</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">منوعات</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">تواصل معنا</a>
+            <a href="login.php" class="nav-link">تسجيل الدخول</a>
           </li>
         </ul>
       </div>
